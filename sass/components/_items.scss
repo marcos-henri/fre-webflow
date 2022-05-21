@@ -1,0 +1,17 @@
+.c-items{
+    padding: 20px;
+    &-it{
+        padding: 10px;
+        height: 180px;
+        margin-bottom: 20px;
+        background-color: $cor1;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        &-txt{
+            max-width: 100%;
+            color: $cor3;
+            font-size: 1.5em;
+        }
+    }
+}
