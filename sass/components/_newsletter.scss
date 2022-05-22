@@ -1,0 +1,27 @@
+#newsletter{
+    padding: 10px;
+    &-title{
+        font-style: italic;
+        font-size: 1em;
+        text-align: center;
+        color: $cor4;
+        margin: 40px 0 20px 0;
+    }
+    &-form{
+        display: flex;
+        width: 100%;
+        margin-bottom: 40px;
+        &-input-email{
+            border: 1px solid $cor4;
+            height: 50px;
+            width: 70%;
+        }
+        &-input-btn{
+            height: 50px;
+            border: none;
+            color: $cor3;
+            background-color: $cor2;
+            width: 30%;
+        }
+    }
+}

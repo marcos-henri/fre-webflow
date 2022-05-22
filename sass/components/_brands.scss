@@ -1,0 +1,22 @@
+#brands{
+    padding: 60px 10px;
+    &-title{
+        font-size: 1.4em;
+        font-weight: normal;
+        text-align: center;
+    }
+    &-hr{
+        margin-bottom: 50px;
+        width: 40px;
+        background-color: $cor1;
+        margin: 0 auto;
+    }
+    &-imgs{
+        padding: 0 20px;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+}

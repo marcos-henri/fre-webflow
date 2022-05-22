@@ -1,0 +1,57 @@
+.c-footer{
+    background-color: $cor2;
+    color: $cor3;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    &-pages{
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 20px;   
+        &-a{
+            color: $cor3;
+            font-family: $font2;
+            line-height: 2em;
+            width: 40%;
+        }
+    }
+    &-social{
+        display: flex;
+        margin-bottom: 20px;
+        &-txt{
+            font-style: italic;
+            margin-right: 5px;
+        }
+        &-icons > a{
+            color: $cor3;
+            margin: 0 5px;
+        }
+    }
+    &-credits{
+        &-txt{
+            color: $cor4;
+            font-size: 1em;
+        }
+        &-txt > a{
+            color: $cor3;
+        }
+    }
+    &-strip{
+        background-color: $cor4;
+        color: $cor3;
+        border-radius: 20px;
+        width: 30%;
+        padding: 10px 20px;
+        display: flex;
+        
+        &-txt{
+            font-family: $font2;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+}
+.fa-brands{
+    font-size: 1.2em;
+}
+
